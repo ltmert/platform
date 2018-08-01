@@ -51,8 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bulletctrl.cs" />
+     <Compile Include="Assets\DestroyMe.cs" />
+     <Compile Include="Assets\DestroyWDelay.cs" />
+     <Compile Include="Assets\LightRays2D\Script\LightRays2D.cs" />
+     <Compile Include="Assets\LightRays2D\Script\LightRays2DAbstract.cs" />
+     <Compile Include="Assets\LightRays2D\Script\LightRays2DCanvas.cs" />
      <Compile Include="Assets\Scripts\scroller.cs" />
+     <Compile Include="Assets\walker.cs" />
+     <Compile Include="Assets\Wallker.cs" />
+     <None Include="Assets\LightRays2D\Readme.txt" />
      <None Include="Assets\!PSRC Pixel Sprites Reactorcore\!PSRC ReadMe.txt" />
+     <None Include="Assets\LightRays2D\Shaders\LightRays.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Public/Documents/Unity Projects/Platform/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
